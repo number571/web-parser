@@ -3,7 +3,7 @@
 #### Example:
 ```
 $ go build -o main main.go
-$ sudo systemctl start tor.servise
+$ sudo systemctl start tor.service
 $ ./main github.com/Number571 --tag a --attr href --tor-proxy --user-agent
 ```
 
