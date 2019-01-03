@@ -1,0 +1,11 @@
+package lib
+
+import (
+	"time"
+	"math/rand"
+)
+
+func RandInt(min int, max int) int {
+	rand.Seed(time.Now().UTC().UnixNano())
+    return min + rand.Intn(max - min)
+}
